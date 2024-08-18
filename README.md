@@ -47,7 +47,9 @@ Open the .env file and update the database connection settings.
 
 ## Configure Mail Settings:
 
-### Update email configuration in the .env file. Example:
+Update email configuration in the `.env` file. Example:
+
+```env
 MAIL_MAILER=smtp
 MAIL_HOST=smtp.mailtrap.io
 MAIL_PORT=2525
@@ -56,7 +58,9 @@ MAIL_PASSWORD=your_password
 MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=no-reply@yourdomain.com
 MAIL_FROM_NAME="${APP_NAME}"
-Start the Development Servers:
+ 
+
+## Start the Development Servers:
 
 ### Laravel Development Server:
 ```php artisan serve```
