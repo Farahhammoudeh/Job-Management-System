@@ -48,8 +48,7 @@ Open the .env file and update the database connection settings.
 ## Configure Mail Settings:
 
 Update email configuration in the `.env` file. Example:
-
-```env
+<pre>
 MAIL_MAILER=smtp
 MAIL_HOST=smtp.mailtrap.io
 MAIL_PORT=2525
@@ -57,8 +56,8 @@ MAIL_USERNAME=your_username
 MAIL_PASSWORD=your_password
 MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=no-reply@yourdomain.com
-MAIL_FROM_NAME="${APP_NAME}"```
- 
+MAIL_FROM_NAME="${APP_NAME}"
+</pre>
 
 ## Start the Development Servers:
 
